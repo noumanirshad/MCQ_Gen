@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: MCQ-GEN
+Version: 0.0.1
+Summary: A AI python package for NLP app
+Home-page: https://github.com/noumanirshad/MCQ_Gen
+Author: noumanirshad
+Author-email: noumanirshad564@gmail.com
+License: MMIT License
+Project-URL: Bug Tracker, https://github.com/noumanirshad/MCQ_Gen/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9.5

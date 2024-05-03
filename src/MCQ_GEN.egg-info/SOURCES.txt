@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/MCQ_GEN.egg-info/PKG-INFO
+src/MCQ_GEN.egg-info/SOURCES.txt
+src/MCQ_GEN.egg-info/dependency_links.txt
+src/MCQ_GEN.egg-info/not-zip-safe
+src/MCQ_GEN.egg-info/top_level.txt
+src/MCQ_GENERATOR/__init__.py

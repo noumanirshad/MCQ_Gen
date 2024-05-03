@@ -1,6 +1,7 @@
 openai
 langchain
-transformer
+transformers
+huggingface_hub
 streamlit
 python-dotenv
 PyPDF2

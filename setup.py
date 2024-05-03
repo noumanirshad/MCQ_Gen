@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding='utf-8') as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 
 
@@ -26,7 +26,7 @@ setuptools.setup(
     project_urls = {
         "Bug Tracker": f"https://github.com/noumanirshad/MCQ_Gen/issues",
     },
-    python_requires='>=3.9',
+    python_requires='>=3.9.5',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
