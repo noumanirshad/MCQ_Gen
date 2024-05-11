@@ -1,6 +1,6 @@
 MCQ,Choices,Correct
-What is the main goal of machine learning?,a: To follow explicit instructions | b: To learn from data and generalize to unseen data | c: To ignore data and rely on pre-defined rules | d: To perform tasks without any data,b
-Which field of study focuses on exploratory data analysis through unsupervised learning?,a: Machine Learning | b: Artificial Intelligence | c: Data Mining | d: Predictive Analytics,c
-What is the mathematical foundation of machine learning methods?,a: Data Mining | b: Mathematical Optimization | c: Computational Statistics | d: Artificial Neural Networks,b
-In which field does machine learning find application in speech recognition?,a: Agriculture | b: Natural Language Processing | c: Computer Vision | d: Speech Recognition,d
-Which framework provides a theoretical viewpoint for describing machine learning?,a: Computational Statistics | b: Probably Approximately Correct (PAC) Learning | c: Artificial Intelligence | d: Data Mining,b
+What is machine learning focused on?,a: Developing and studying statistical algorithms | b: Creating explicit instructions for tasks | c: Exploring data analysis through unsupervised learning | d: Applying mathematical optimization methods,a
+Which field has been able to surpass many previous approaches in performance?,a: Artificial intelligence | b: Data mining | c: Artificial neural networks | d: Predictive analytics,c
+In which field does machine learning find applications?,a: Music composition | b: Agriculture | c: Sports coaching | d: Fashion design,b
+What is the related field of study focusing on exploratory data analysis?,a: Machine learning | b: Natural language processing | c: Data mining | d: Speech recognition,c
+Which framework provides a theoretical viewpoint for describing machine learning?,a: Statistical analysis | b: Probably approximately correct (PAC) learning | c: Computational statistics | d: Mathematical programming,b

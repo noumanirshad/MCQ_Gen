@@ -1,6 +1,5 @@
 import traceback
 import os
-from langchain.callbacks import get_openai_callback
 import PyPDF2
 from Exception.logger import logging
 from Exception.exception import CustomException
@@ -10,7 +9,7 @@ import json
 
 
 def read_file(filename):
-    if filename.endswith('.pdf'):
+    if filename.name.endswith('.pdf'):
         logging.info("Lets Read the files")
         try:                
             pdf_reader = PyPDF2.PdfFileReader(filename)
@@ -25,7 +24,7 @@ def read_file(filename):
             logging.info(f"Error reading the pdf file : {e}")
             raise CustomException(e, sys) 
         
-    elif filename.name.endwith(".txt"):     
+    elif filename.name.endswith(".txt"):     
         txt_file = filename.read().decode("utf_8")
         logging.info("Successfully Read the text file")
         return txt_file     
@@ -37,22 +36,32 @@ def read_file(filename):
 
 def get_table_data(quiz_str):
     try:
+        # convert the quiz from a str to dict
         logging.info("Getting Quiz convert into table data format.")
-        quiz_dict = json.loads(quiz_str)
+        # Correcting the malformed JSON by replacing single quotes with double quotes
+        quiz_dict = json.loads(quiz_str.replace("'", "\""))
         quiz_table_data = []
+
+        # iterate over the quiz dictionary and extract the required information
         for key, value in quiz_dict.items():
             mcq = value["mcq"]
-            option = "||".join(
-                [
-                    f"{option}-> {option_value}" for option , option_value in value["option"].items()
-                ]
-            )
+            options = " || ".join([f"{option}->{option_value}" for option, option_value in value["options"].items()])
             correct = value["correct"]
-            quiz_table_data.append({"MCQ": mcq, "Chioces": option, "Correct": correct})
+            quiz_table_data.append({"MCQ": mcq, "Choices": options, "Correct": correct})
+
         logging.info("Successfully Quiz convert into table data format.")
         return quiz_table_data
-        
+
+    except json.JSONDecodeError as e:
+        # JSONDecodeError will occur if the provided JSON is malformed
+        logging.error(f"JSON decoding error: {e}")
+        raise CustomException("Malformed JSON provided.", sys)
+    except KeyError as e:
+        # KeyError will occur if required keys are missing in the JSON structure
+        logging.error(f"KeyError: {e}")
+        raise CustomException("Required keys are missing in the JSON structure.", sys)
     except Exception as e:
-        logging.info(f"An exception has occurred : {e}")
-        raise CustomException(e, sys) 
+        # Catching other exceptions
+        logging.error(f"An exception has occurred : {e}")
+        raise CustomException(e, sys)
 

@@ -1,0 +1,90 @@
+
+['Date & time': 2024-05-11 06:46:15,006,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-11 06:46:15,047,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-11 06:46:15,603,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-11 06:46:15,604,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-11 06:46:15,605,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-11 06:46:31,779,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-11 06:46:31,839,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-11 06:46:31,841,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-11 06:46:31,842,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-11 06:46:31,843,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-11 06:46:38,099,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-11 06:46:38,180,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-11 06:46:38,182,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-11 06:46:38,183,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-11 06:46:38,184,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-11 06:46:38,192,  'Level' :  INFO, 'file': utils, 
+'message': Successfully Read the text file]
+
+
+['Date & time': 2024-05-11 06:46:43,718,  'Level' :  INFO, 'file': _client, 
+'message': HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"]
+
+
+['Date & time': 2024-05-11 06:46:45,840,  'Level' :  INFO, 'file': _client, 
+'message': HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"]
+
+
+['Date & time': 2024-05-11 06:46:45,846,  'Level' :  INFO, 'file': utils, 
+'message': Getting Quiz convert into table data format.]
+
+
+['Date & time': 2024-05-11 06:46:45,847,  'Level' :  INFO, 'file': utils, 
+'message': An exception has occurred : Expecting property name enclosed in double quotes: line 2 column 5 (char 6)]
+
+
+['Date & time': 2024-05-11 06:46:45,848,  'Level' :  INFO, 'file': StreamlitAPP, 
+'message': An exception has occurred : Error occurred in python script name [E:\ALL PROGRAMS\All_DS_Projects\Generative AI\MCQ_Gen\src\MCQ_GENERATOR\utils.py] line number [41] error message[Expecting property name enclosed in double quotes: line 2 column 5 (char 6)]]
+

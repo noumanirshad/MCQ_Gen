@@ -4,10 +4,11 @@ import pandas as pd
 from dotenv import load_dotenv
 from Exception.logger import logging
 from src.MCQ_GENERATOR.utils import read_file, get_table_data
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-from langchain.chat_models import ChatOpenAI
+
 from Exception.exception import CustomException
 import sys
 
@@ -16,7 +17,7 @@ class Generator:
 
     def __init__(self):
         load_dotenv()
-        self.KEY=os.getenv("OPENAI_API_KEY")
+        self.KEY=os.getenv("apikey")
 
         self.input_TEMPLATE="""
         Text:{text}
@@ -40,19 +41,21 @@ class Generator:
         Check from an expert English Writer of the above quiz:
         """
 
-    def LLMChain(self):
+    def LLMChains(self):
         try:
             logging.info("Lets start the LLM Setup.")
             
             llm=ChatOpenAI(openai_api_key=self.KEY,model_name="gpt-3.5-turbo", temperature=0.7)
+            logging.info("successfully setup the LLM Model.")
 
             quiz_generation_prompt = PromptTemplate(
                 input_variables=["text", "number", "subject", "tone", "response_json"],
                 template=self.input_TEMPLATE
                 )
-
-
+            
+            # quiz_chain=LLMChain(llm=llm, prompt=quiz_generation_prompt, output_key="quiz", verbose=True)
             quiz_chain=LLMChain(llm=llm, prompt=quiz_generation_prompt, output_key="quiz", verbose=True)
+            logging.info("successfully quiz_chain setup.")
 
 
             quiz_evaluation_prompt=PromptTemplate(
