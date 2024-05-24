@@ -1,0 +1,168 @@
+
+['Date & time': 2024-05-24 00:33:52,214,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-24 00:33:52,214,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-24 00:33:52,268,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-24 00:33:52,269,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-24 00:33:52,702,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-24 00:33:52,703,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-24 00:33:52,705,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-24 00:33:52,706,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-24 00:33:52,708,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-24 00:33:52,710,  'Level' :  INFO, 'file': main_1, 
+'message': Lets Start the Streamlit Setup like buttons and architectures...]
+
+
+['Date & time': 2024-05-24 00:33:52,710,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-24 00:33:52,713,  'Level' :  INFO, 'file': main_1, 
+'message': Lets Start the Streamlit Setup like buttons and architectures...]
+
+
+['Date & time': 2024-05-24 00:33:52,718,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully complete the streamlit setup ......]
+
+
+['Date & time': 2024-05-24 00:33:52,801,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully complete the streamlit setup ......]
+
+
+['Date & time': 2024-05-24 00:34:25,909,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-24 00:34:25,968,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-24 00:34:25,969,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-24 00:34:25,971,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-24 00:34:25,972,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-24 00:34:25,973,  'Level' :  INFO, 'file': main_1, 
+'message': Lets Start the Streamlit Setup like buttons and architectures...]
+
+
+['Date & time': 2024-05-24 00:34:25,977,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully complete the streamlit setup ......]
+
+
+['Date & time': 2024-05-24 00:34:36,172,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Lets start the LLM Setup.]
+
+
+['Date & time': 2024-05-24 00:34:36,223,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully setup the LLM Model.]
+
+
+['Date & time': 2024-05-24 00:34:36,223,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': successfully quiz_chain setup.]
+
+
+['Date & time': 2024-05-24 00:34:36,225,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully setup the LLM and Create a input&output prompt_Templates. 
+]
+
+
+['Date & time': 2024-05-24 00:34:36,226,  'Level' :  INFO, 'file': MCQ_Generator, 
+'message': Successfully Sequential_Chain. 
+]
+
+
+['Date & time': 2024-05-24 00:34:36,227,  'Level' :  INFO, 'file': main_1, 
+'message': Lets Start the Streamlit Setup like buttons and architectures...]
+
+
+['Date & time': 2024-05-24 00:34:36,235,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully complete the streamlit setup ......]
+
+
+['Date & time': 2024-05-24 00:34:36,237,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Lets apply uploading Functions to get the Text file. ......]
+
+
+['Date & time': 2024-05-24 00:34:36,238,  'Level' :  INFO, 'file': utils, 
+'message': Successfully Read the text file]
+
+
+['Date & time': 2024-05-24 00:34:36,239,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Lets applying MCQ_GENERATOR on text data. ......]
+
+
+['Date & time': 2024-05-24 00:34:38,426,  'Level' :  INFO, 'file': _client, 
+'message': HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"]
+
+
+['Date & time': 2024-05-24 00:34:40,015,  'Level' :  INFO, 'file': _client, 
+'message': HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"]
+
+
+['Date & time': 2024-05-24 00:34:40,030,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully applied the MCQ_GENERATOR Functions on Text data. ......]
+
+
+['Date & time': 2024-05-24 00:34:40,042,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Lets applying get_table_data Functions on output of quiz . ......]
+
+
+['Date & time': 2024-05-24 00:34:40,043,  'Level' :  INFO, 'file': utils, 
+'message': Getting Quiz convert into table data format.]
+
+
+['Date & time': 2024-05-24 00:34:40,044,  'Level' :  INFO, 'file': utils, 
+'message': Successfully Quiz convert into table data format.]
+
+
+['Date & time': 2024-05-24 00:34:40,045,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully applied get_table_data Functions on output of quiz . ......]
+
+
+['Date & time': 2024-05-24 00:34:40,056,  'Level' :  INFO, 'file': main_1, 
+'message': ....... Successfully convert table data into DataFrame . ......]
+
+
+['Date & time': 2024-05-24 00:34:40,067,  'Level' :  INFO, 'file': main_1, 
+'message': An exception has occurred : 'str' object has no attribute 'items']
+
